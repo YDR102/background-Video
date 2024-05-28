@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="stylos.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <!-- <div class="preloader">
+      <h1 class="preloader__item">Cargando...</h1>
+    </div> -->
+    <!-- header -->
+    <header>
+      <video muted autoplay loop class="video-container">
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+      <h1 white>Titulo Correpondiente</h1>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>
+          play
+        </span>
+        <span>
+          pause
+        </span>
+        <span class="switch"></span>
+      </button>
+      <button mute class="mute">Unmuted</button>
+
+    </header>
+    <!-- javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>
